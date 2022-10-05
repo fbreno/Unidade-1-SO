@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rock/CLion/src/matrizes_threads.cpp
+iostream
+-
+chrono
+-
+vector
+-
+thread
+-
+fstream
+-
+../utils/utils.h
+/home/rock/CLion/utils/utils.h
+
+/home/rock/CLion/utils/utils.h
+iostream
+-
+vector
+-
+
